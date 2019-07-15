@@ -32,6 +32,14 @@ import com.refresher.oop.helper.Interface1;
  * ... that can access and modify the state of the object to which they belong
  */
 
+/*
+ * Use Interface when:
+ * You expect that unrelated classes would implement your interface. 
+ * ... For example, the interfaces Comparable and Cloneable are implemented by many unrelated classes
+ * You want to specify the behavior of a particular data type, but not concerned about who implements its behavior
+ * You want to take advantage of multiple inheritances
+ */
+
 // multiple inheritance is also considered as polymorphism/polymorphic
 public class AbstractionClass extends AbstractClass1 implements Interface1{
 
