@@ -9,5 +9,5 @@ package com.refresher.oop.helper;
  */
 public interface Interface1 {
 	int num = 5;
-	public void walk();
+	public abstract void walk();
 }

@@ -6,6 +6,7 @@ package com.refresher.oop.helper;
  * Abstract methods must be implemented by a subclass (@Override)
  * Abstract class can implement an Interface
  * Abstract class can contain a non-abstract method (has a body)
+ * Abstract class cannot contain a constructor
  */
 public abstract class AbstractClass1 {
 	private String field1;
